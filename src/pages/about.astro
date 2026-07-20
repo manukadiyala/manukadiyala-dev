@@ -2,6 +2,8 @@
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Image } from "astro:assets";
+import atWorkImage from "../assets/at-work.jpg";
 ---
 
 <BaseLayout title="About | Manu Kadiyala" description="About Manu Kadiyala">
@@ -11,11 +13,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+				
+				<Image
+					src={atWorkImage}
+					alt="Manu Kadiyala playing chess"
+					priority
 				/>
 			</Hero>
 
@@ -23,27 +25,38 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						I do physics
-					</p>
-					<p>
-						I will add
-						more stuff later
-					</p>
-					<p>
-						look a fish -> &gt;&lt;&gt;
+						I am a physics and mathematics graduate from the University of Vermont with interests spanning scientific computing, data analysis, and physics. I enjoy approaching technical problems through a combination of physical reasoning, mathematical modeling, programming, and experimentation.<br><br>
+						
+						Outside of technical work, I enjoy playing chess, skiing, kayaking, backpacking, and learning languages.
+				
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>UVM math and physics.</p>
+					<p>
+						<strong>B.S. Physics</strong><br />
+						<strong>B.S. Mathematics</strong><br />
+						University of Vermont, 2026
+					</p>
+					
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>Many skills</p>
+					<p>
+						<strong>Programming:</strong> Python, Java, C++, OCaml
+					</p>
+					<p>
+						<strong>Computing and Data:</strong> Scientific computing, numerical methods,
+						machine learning, statistical analysis, data visualization, network analysis
+					</p>
+					<p>
+						<strong>Physics and Materials:</strong> Condensed-matter physics, semiconductor
+						materials, thin films, materials characterization
+					</p>
 				</div>
 			</section>
 		</main>

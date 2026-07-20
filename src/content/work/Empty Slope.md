@@ -4,8 +4,7 @@ publishDate: 2019-10-02 00:00:00
 img: /assets/stock-4.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  currently just a stock project i'm using as a placeholder
 tags:
   - Design
   - Branding
