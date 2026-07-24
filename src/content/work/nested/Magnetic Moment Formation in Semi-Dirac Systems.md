@@ -4,7 +4,7 @@ publishDate: 2020-03-04 00:00:00
 img: /assets/quartic-semi-dirac.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We studied magnetic moment formation in semi-Dirac systems.
+  Supported by the Crowell Undergraduate Research Award, I investigated magnetic moment formation in semi-Dirac systems.
 tags:
   - Computational Physics
   - Condensed Matter
